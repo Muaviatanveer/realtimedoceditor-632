@@ -1,0 +1,46 @@
+{
+  "name": "collaborative-document-editor",
+  "version": "1.0.0",
+  "description": "A collaborative document editor like Google Docs with real-time synchronization, operational transforms/CRDTs, comments, version history, offline editing, and conflict resolution.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "collaborative",
+    "document",
+    "editor",
+    "real-time",
+    "synchronization",
+    "operational",
+    "transforms",
+    "CRDTs",
+    "comments",
+    "version",
+    "history",
+    "offline",
+    "editing",
+    "conflict",
+    "resolution"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.4.1",
+    "crdt-lib": "^1.2.3",
+    "pouchdb": "^8.1.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.4.7",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}
